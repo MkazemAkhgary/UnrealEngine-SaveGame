@@ -1,5 +1,5 @@
 # UnrealEngine-SaveGame
-a simple way to save properties on Actors/Components marked with SaveGame flag.
+a simple way to save properties on Actors/Components marked with SaveGame flag. This approach was originated from [here](https://forums.unrealengine.com/t/what-is-the-best-way-to-handle-saving-loading-an-array-of-objects/281775/7)
 
 # How to install
 
