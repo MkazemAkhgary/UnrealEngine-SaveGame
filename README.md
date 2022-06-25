@@ -32,3 +32,6 @@ This works for actors/components that exist in the map and not spawned at runtim
 (click on the image to see full size)
 ![image](https://user-images.githubusercontent.com/15255162/175766605-f3b257d9-83e4-4a29-9074-4c5c990a1135.png)
 
+# Additional Notes
+
+You can inherit from ObjectSaveGame and add additional properties to save like a regular SaveGame object.
