@@ -11,13 +11,15 @@
 UCLASS()
 class YOUR_API UObjectSaveGame : public USaveGame
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
 
 public:
-	// Save properties marked with SaveGame flag.
+    // Save properties marked with SaveGame flag.
+    UFUNCTION(BlueprintCallable, Category = "SaveGame")
     void SaveActor(AActor* Actor, bool bSaveComponents);
 
-	// Load properties marked with SaveGame flag.
+    // Load properties marked with SaveGame flag.
+    UFUNCTION(BlueprintCallable, Category = "SaveGame")
     void LoadActor(AActor* Actor, bool bLoadComponents) const;
 
     // Provide kismet function libraries in blueprint graph editor.
