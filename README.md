@@ -19,6 +19,7 @@ This works for actors/components that exist in the map and not spawned at runtim
  - Call SaveActor to save properties. you can save multiple actors on one SaveGame
  - Call SaveGameToSlot to save on disk
 
+(click on the image to see full size)
 ![image](https://user-images.githubusercontent.com/15255162/175766580-751ab8d6-0c6a-4f5c-8a00-f14bc03bd7f1.png)
 
 
@@ -28,5 +29,6 @@ This works for actors/components that exist in the map and not spawned at runtim
  - Cast to "ObjectSaveGame"
  - Call LoadActor to load properties of the given actor.
 
+(click on the image to see full size)
 ![image](https://user-images.githubusercontent.com/15255162/175766605-f3b257d9-83e4-4a29-9074-4c5c990a1135.png)
 
